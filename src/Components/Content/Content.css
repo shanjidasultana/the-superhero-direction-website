@@ -1,0 +1,17 @@
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background: url("https://thumbs.dreamstime.com/b/colorful-vintage-bokeh-lights-background-abstract-concert-lighting-abstract-colorful-bokeh-concert-lighting-background-122877955.jpg" ) ;
+    /* height: 100%; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.singers-container{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap: 25px;
+   grid-row-gap: 30px;
+
+}
+
