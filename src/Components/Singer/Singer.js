@@ -11,11 +11,11 @@ const Singer = (props) => {
 
             <div className="singer-card" >
                 <img src={picture} alt=""  />
-                <h2>Name: {name}</h2>
-                <p>Age: {age}</p>
-                <p>Gender: {gender}</p>
-                <p>Nationality: {nationality}</p>
-                <p>Salary: $ {salary}</p>
+                        <h2>Name: {name}</h2>
+                        <p>Age: {age}</p>
+                        <p>Gender: {gender}</p>
+                        <p>Nationality: {nationality}</p>
+                        <p>Salary: $ {salary}</p>
                 <button onClick={()=> props.handleHireButton(props.singer)}><i class="fas fa-headphones"></i> Hire</button>
                     <div className="social-icon">
                         <i class="fab fa-facebook"></i>
