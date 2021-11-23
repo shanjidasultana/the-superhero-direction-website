@@ -17,6 +17,7 @@ const Singer = (props) => {
                         <p>Nationality: {nationality}</p>
                         <p>Salary: $ {salary}</p>
                 <button onClick={()=> props.handleHireButton(props.singer)}><i class="fas fa-headphones"></i> Hire</button>
+                   
                     <div className="social-icon">
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-instagram"></i>
