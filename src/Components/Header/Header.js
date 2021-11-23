@@ -9,6 +9,8 @@ const Header = () => {
             <h1>The Concert for Bankok</h1>
             <p> A concert is a live music performance in front of an audience.[1] The performance may be by a single musician, sometimes then called a recital, or by a musical ensemble, such as an orchestra, choir, or band.</p>
             <h1>Total Budget: $ 100 Billion </h1>
+            
+            
             <Wave fill='white'
                 paused={false}
                 options={{
@@ -18,6 +20,8 @@ const Header = () => {
                 points: 400
                 }}
             />
+
+            
         </div>
     );
 };
