@@ -30,6 +30,7 @@
     font-weight:900;
     font-size: 30px;
 }
+
 .singer-card button{
     border: darkred solid 1px;
     color: white;
@@ -38,6 +39,7 @@
     border-radius: 9px;
     background:linear-gradient( to left ,black ,rgb(231, 15, 51));
 }
+
 .singer-card i{
     color: rgb(229, 255, 0);
     font-size: 30px;

@@ -7,6 +7,7 @@ import './Singer.css';
 const Singer = (props) => {
     const {name,picture,age,gender,salary,nationality}= props.singer;
     return (
+        
         <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
 
             <div className="singer-card" >
